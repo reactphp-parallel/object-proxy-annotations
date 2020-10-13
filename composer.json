@@ -1,0 +1,39 @@
+{
+    "name": "react-parallel/object-proxy-attributes",
+    "description": "\ud83d\udc68\u200d\ud83d\ude80\ud83d\udef0\ud83d\udc69\u200d\ud83d\ude80 Attributes for react-parallel/object-proxy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cees-Jan Kiewiet",
+            "email": "ceesjank@gmail.com",
+            "homepage": "http://wyrihaximus.net/"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "wyrihaximus/test-utilities": "^2.7"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.7"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "ReactParallel\\ObjectProxy\\Attribute\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "post-install-cmd": [
+            "composer normalize"
+        ],
+        "post-update-cmd": [
+            "composer normalize"
+        ]
+    }
+}
