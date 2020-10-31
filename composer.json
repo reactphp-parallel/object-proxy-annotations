@@ -13,6 +13,7 @@
         "php": "^7.4"
     },
     "require-dev": {
+        "doctrine/annotations": "^1.11",
         "wyrihaximus/test-utilities": "^2.9"
     },
     "config": {
@@ -21,9 +22,19 @@
         },
         "sort-packages": true
     },
+    "extra": {
+        "unused": [
+            "php"
+        ]
+    },
     "autoload": {
         "psr-4": {
             "ReactParallel\\ObjectProxy\\Attribute\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ReactParallel\\Tests\\ObjectProxy\\Attribute\\": "tests/"
         }
     },
     "minimum-stability": "dev",
