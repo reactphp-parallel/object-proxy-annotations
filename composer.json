@@ -14,7 +14,7 @@
     },
     "require-dev": {
         "doctrine/annotations": "^1.11",
-        "wyrihaximus/test-utilities": "^2.9"
+        "wyrihaximus/test-utilities": "^2.9 || ^3.0"
     },
     "config": {
         "platform": {
